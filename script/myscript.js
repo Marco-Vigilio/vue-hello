@@ -13,10 +13,12 @@ let createApp = Vue.createApp; //STESSA IDENTICA COSA MA SCRITTA IN MODO DIFFERE
 
 createApp({
     data(){
-        return {
+        oggetto = {
             message: "Your Welcome in Vue",
             image: "https://unsplash.it/300/300?image",
-        };
+        }
+        
+        return oggetto;
         
     }
 }).mount("#app");
